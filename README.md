@@ -17,7 +17,7 @@ Por otra parte, es importante tener en cuenta el learning rate, el cual es un hi
 
 Se ha comprobado que con la utilización de GPU local se ha obtenido una mejora en cuanto al tiempo de ejecución.
 
-Dentro de las pruebas realizadas, se ha hecho lo siguiente:
+#### Dentro de las pruebas realizadas, se ha hecho lo siguiente:
 *	Layers:
     * StringLookup y Embedding
     * StringLookup, Embedding y Dense (con función de activación Relu y tanh)
@@ -44,7 +44,7 @@ Dentro de las pruebas realizadas, se ha hecho lo siguiente:
     * 50
     * 100
 
-Propuestas de otros enfoques:
+#### Propuestas de otros enfoques:
 *	Probar separar 2 o más ítems por usuario para el test set.
 *	Considerar la antigüedad de las compras.
 *	Considerar un peso diferente para los artículos más comprados.
@@ -53,3 +53,9 @@ Propuestas de otros enfoques:
 
 
 Para ejecutar el código, se debe tener el fichero “HM_interactions.csv” en la misma carpeta. Para ejecutar el código no es necesario utilizar una GPU, pero se obtiene un mayor rendimiento en los tiempos de ejecución.
+
+#### Integrantes:
+* Jhonny Sinisterra
+* Jesús Mondragón
+* Angel Valdés
+* José von Lücken 
